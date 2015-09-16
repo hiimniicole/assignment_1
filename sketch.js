@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
 	// clear the background - skyblue
-  background(180, 200, 255);
+  background(0);
 
 	// set a fill color white
 	fill(255, 255, 255);
