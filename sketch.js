@@ -13,14 +13,17 @@ function draw() {
 	fill(102, 51, 51);
 	// draw ground
 	noStroke();
-	// rectMode(CENTER);
+	 //rectMode(CENTER);
 	rect(35, 100 , 80, 200);
   //tree bottom
 	rect(340,100,80,200)
 //3rd tree bottom
 rect(525,100,80,200)
-//rect grass
-rect(80,200,100,200)
+
+fill (0,153,0)
+//draw rect
+noStroke();
+rect(0,280,800,100)
 
 //stroke for the tree bush
 noStroke(0,0,0);
