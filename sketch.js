@@ -2,13 +2,13 @@ var img;
 function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
-	img = loadImage("test.jpeg");
+	img = loadImage("knife2.jpg");
 }
 
 function draw() {
 	// clear the background - skyblue
-  background(102,153,204);
-	//image(img, 0, 0, 200, 200);
+  background(110,150,204);
+	image(img, 120, 147, 150, 200);
 	// set a fill color white
 	fill(102, 51, 51);
 	// draw ground
@@ -32,8 +32,8 @@ noStroke(0,0,0);
 fill(0,153,0);
 //filler for tree bushes
 ellipse(400, 170, 50, 50);
-ellipse(430, 140, 50, 50);
-ellipse(350, 140, 50, 50);
+ellipse(420, 140, 50, 50);
+ellipse(450, 140, 50, 50);
 ellipse(345, 140, 50, 50);
 ellipse(380, 140, 50, 50);
 ellipse(350,140, 40, 40);
